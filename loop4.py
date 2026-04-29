@@ -1,0 +1,9 @@
+y=1
+while(y<11):
+    x=1
+    num=y
+    while(x<11):
+        res=num*x
+        print(str(x)+"*"+str(num)+"="+str(res))
+        x=x+1
+    y=y+1    
